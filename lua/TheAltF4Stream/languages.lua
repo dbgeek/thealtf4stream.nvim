@@ -142,7 +142,7 @@ local function init()
                 },
             }
         },
-        ocamllsp = {},
+	--ocamllsp = {},
         omnisharp = {
             cmd = { "omnisharp", "--languageserver", "--hostPID", tostring(vim.fn.getpid()) },
             handlers = {
