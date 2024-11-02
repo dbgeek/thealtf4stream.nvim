@@ -91,8 +91,8 @@ in rec {
     nodePackages.typescript-language-server
     nodePackages.vscode-langservers-extracted
     nodePackages.yaml-language-server
-    ocamlPackages.ocaml-lsp
-    ocamlPackages.ocamlformat
+    #ocamlPackages.ocaml-lsp
+    #ocamlPackages.ocamlformat
     pkgs.cuelsp
     pkgs.dhall-lsp-server
     pkgs.gopls
