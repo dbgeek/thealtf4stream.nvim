@@ -39,6 +39,7 @@ end
 local function set_vim_opt()
     vim.opt.list = true
     vim.opt.listchars:append "eol:↴"
+    vim.opt.termcap = true
 end
 
 local function set_vim_keymaps()
